@@ -253,3 +253,24 @@ form {
   width: 6rem;
   height: 3rem;
 }
+
+
+.paymentsImage {
+  width: 28.5rem;
+  height: 21rem;
+}
+
+.thirdSectionContent {
+  grid-column: span 1;
+  text-align: justify;
+  width: 70%;
+}
+
+.thirdSectionContent p {
+  padding: 0.3rem 0 0.3rem 0;
+}
+
+.thirdImageSection {
+  grid-column: span 1;
+  margin-left: 10rem;
+}
