@@ -202,3 +202,54 @@ span {
 hr {
   width: 55%;
 }
+
+
+.secondSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondSectionContainer h2 {
+  padding-top: 2rem;
+  font-size: 1.375rem;
+}
+
+.secondSectionContainer p {
+  margin-top: -0.5rem;
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+form {
+  padding: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input {
+  background: var(--white);
+  border: 1px solid var(--secondary-white);
+  box-sizing: border-box;
+  border-radius: 0.25;
+  padding: 0.7rem;
+  width: 14.5rem;
+  height: 3rem;
+}
+
+.secondSectionContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-green);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem;
+  width: 6rem;
+  height: 3rem;
+}
