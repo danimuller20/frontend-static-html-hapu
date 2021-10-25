@@ -161,3 +161,44 @@ span {
   justify-content:space-between;
   width: 25rem;
 }
+
+
+.mainContainer {
+  background: #F2F2F2;
+}
+
+.nannyShareMackbook {
+  width: 36.5rem;
+  height: 24.5rem;
+}
+
+.contentContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  padding: 4rem;
+}
+
+.sectionContent {
+  grid-column: span 1;
+  margin-left: 10rem;
+}
+
+.sectionContent h2 {
+  width: 60%;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.sectionContent p {
+  line-height: 1.5rem;
+  width: 90%;
+}
+
+.imageSection {
+  grid-column: span 1;
+}
+
+hr {
+  width: 55%;
+}
