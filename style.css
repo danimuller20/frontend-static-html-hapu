@@ -274,3 +274,22 @@ form {
   grid-column: span 1;
   margin-left: 10rem;
 }
+
+.historyImage {
+  width: 61.5rem;
+  height: 24.5rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.centerSection {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-top: 2rem;
+}
+
+.centerSection p {
+  width: 55%;
+  text-align: center;
+}
