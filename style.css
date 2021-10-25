@@ -293,3 +293,14 @@ form {
   width: 55%;
   text-align: center;
 }
+
+
+.dailyDiary {
+  width: 13.5rem;
+  height: 6;
+  padding: 3rem 0 1rem 0;
+}
+
+.dailyDiaryParagraph {
+  padding-bottom: 3rem;
+}
