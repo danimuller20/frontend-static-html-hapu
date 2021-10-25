@@ -304,3 +304,111 @@ form {
 .dailyDiaryParagraph {
   padding-bottom: 3rem;
 }
+
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  height: 33.75rem;
+}
+
+.infoFooterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoFooterContainer h2 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-top: 5rem;
+  line-height: 2rem;
+  color: var(--grey);
+}
+
+.infoFooterContainer p {
+  font-weight: normal;
+  font-size: 1.125rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  color: var(--grey);
+}
+
+.infoFooterContainer button {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 1.5rem;
+  
+  background: var(--secondary-purple);
+  border-radius: 0.25rem;
+  margin-bottom: 1.25rem;
+  width: 18.75rem;
+  height: 4.375rem;
+}
+
+.textDecoration  {
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.firstLine, .secondLine {
+  font-weight: 400;
+  color: var(--white);
+
+}
+.firstLine {
+  font-size: 1rem;
+  line-height: 1.175rem;
+  text-decoration: none;
+}
+
+.secondLine {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.footerNavContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.footerNavContainer ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1.563rem;
+  width: 37%;
+}
+
+.footerHapuLogo {
+  width: 4rem;
+  height: 1.5rem;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 14%;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 3rem;
+  color: var(--grey);
+  opacity: 0.6;
+  padding-top: 2rem;
+}
