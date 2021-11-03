@@ -1,0 +1,467 @@
+:root {
+  --grey-0: #000000;
+  --grey-24: #3D3D3D;
+  --grey-88: #DFDFDF;
+  --white: #FFFFFF;
+  --background: #FAF9F7;
+  --primary: #00C88C;
+  --secondary: #5E20A4;
+  --header-image: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+.sectionTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  color: var(--grey-24);
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+span {
+  color: var(--secondary);
+  font-size: 1.6rem;
+  line-height: 2.4\   rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.headerContainer {
+  background-image: url(resources/banner_image.png), var(--header-image);
+  background-size: cover;
+  height: 61.6rem;
+  width: 100%;
+}
+   
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav, .rightSideNav span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.leftSideNav {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.rightSideNav {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-right: 3rem;
+}
+
+.rightSideNav button {
+  background: var(--primary);
+  border-radius: 0.4rem;
+  border: none;
+  padding: 1.2rem;
+  width: 24rem;
+  text-align: center;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.headerContentContainer {
+  height: 100%;
+  margin-top: -60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerImage {
+  margin-right: 17%;
+  height: 29rem;
+  width:31.6rem;
+  margin-bottom: -4rem;
+}
+
+.hapuLogo{
+  width: 4.8rem;
+  height: 6.4rem;
+}
+
+.content {
+  color: var(--white);
+  width: 52%;
+  margin: 9%;
+}
+.title {
+  font-weight: 500;
+  width: 80%;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.1rem;
+}
+    
+.description {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  width: 95%;
+  margin-top: -1rem;
+  color: var(--white);
+}
+  
+.playText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-decoration: underline;
+}
+
+.playerContainer {
+  display: flex;
+  gap: 1.9rem;
+  margin-top: 3.5rem;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 2.4rem;
+  height: 11.2rem;
+  gap: 0.96rem;
+  background: var(--white);
+  border: 0.1rem solid var(--grey-88);
+}
+
+.profileContainer p, .profileContainer span {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.profileContainer img {
+  width: 4rem;
+}
+
+.listContainer, .footerListContainer {
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content:space-between;
+  width: 40rem;
+}
+
+.listContainer > li > a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footerListContainer > li > a {
+  color: var(--grey-24);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--grey-24);
+}
+
+.backgroundContainer {
+  background: var(--background);
+  padding: 0.1rem;
+}
+
+.nannyShareMackbook {
+  width: 58.4rem;
+  height: 39.2rem;
+}
+
+.firstContentContainer, .thirdContentContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  padding: 6.4rem;
+}
+
+.sectionContent {
+  grid-area: textSection;
+  margin-left: 16rem;
+}
+
+.imageSection {
+ grid-area: imageSection;
+}
+
+.firstContentContainer {
+  grid-template-areas: 
+    "textSection imageSection";
+}
+
+.thirdSectionContent {
+  grid-area: textSection;
+  text-align: justify;
+  width: 70%;
+}
+
+.thirdImageSection {
+  grid-area: imageSection;
+  margin-left: 16rem;
+}
+
+.thirdContentContainer {
+  grid-template-areas: 
+    "imageSection textSection";
+}
+
+.sectionContent h1 {
+  width: 60%;
+}
+
+.sectionContent p {
+  line-height: 2.4rem;
+  width: 90%;
+  color: #4A4A4A;
+}
+
+.sectionContent > span {
+  line-height: 8rem;
+}
+
+hr {
+  width: 55%;
+  border: 0.1rem solid #DFDFDF;
+}
+
+.secondSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondSectionContainer h1 {
+  padding-top: 3.2rem;
+  font-size: 2.2rem;
+}
+
+.secondSectionContainer p {
+  margin-top: -0.8rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--grey-24);
+  width: 100%;
+}
+
+form {
+  padding: 4.8rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.input {
+  background: var(--white);
+  border: 0.1rem solid var(--grey-88);
+  box-sizing: border-box;
+  border-radius: 0.25;
+  padding: 1.12rem;
+  width: 23.2rem;
+  height: 4.8rem;
+}
+
+.secondSectionContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  border-radius: 0.4rem;
+  border: none;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 0.8rem;
+  width: 9.6rem;
+  height: 4.8rem;
+}
+
+
+.paymentsImage {
+  width: 45.6rem;
+  height: 33.6rem;
+}
+
+.thirdSectionContent p {
+  padding: 0.48rem 0 0.48rem 0;
+  color: var(--grey-24);
+}
+
+.thirdSectionContent > span {
+  line-height: 5rem;
+}
+
+.historyImage {
+  width: 98.4rem;
+  height: 39.2rem;
+  padding: 3.2rem 0 10rem 0;
+}
+
+.centerSection {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 6rem;
+}
+
+.centerSection p {
+  width: 55%;
+  text-align: center;
+  color: var(--grey-24);
+}
+
+.dailyDiary {
+  width: 21.6rem;
+  height: 6;
+  padding: 1rem 0 1.6rem 0;
+}
+
+.dailyDiaryParagraph {
+  padding-bottom: 3rem;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  height: 54rem;
+}
+
+.infoFooterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoFooterContainer h1 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-top: 8rem;
+  line-height: 3.2rem;
+  color: var(--grey-24);
+}
+
+.infoFooterContainer p {
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-top: -0.8rem;
+  margin-bottom: 3.2rem;
+  line-height: 2.4rem;
+  color: var(--grey-24);
+}
+
+.infoFooterContainer button {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 2.4rem;
+  
+  background: var(--secondary);
+  border-radius: 0.4rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+  height: 7rem;
+}
+
+.textDecoration  {
+  font-weight: 500;
+  margin-bottom: 4.8rem;
+}
+
+.buttonContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.firstLine, .secondLine {
+  font-weight: 400;
+  color: var(--white);
+
+}
+.firstLine {
+  font-size: 1.6rem;
+  line-height: 1.88rem;
+  text-decoration: none;
+}
+
+.secondLine {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.footerNavContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 1.6rem;
+}
+
+.footerNavContainer ul {
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2.5rem;
+  width: 37%;
+}
+
+.footerHapuLogo {
+  width: 6.4rem;
+  height: 2.4rem;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 14%;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-top: 4.8rem;
+  color: var(--grey-24);
+  opacity: 0.6;
+  padding-top: 3.2rem;
+}
